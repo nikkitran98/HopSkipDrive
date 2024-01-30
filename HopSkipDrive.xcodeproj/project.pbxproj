@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5DB0E42B696ACD0021D231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB0E32B696ACD0021D231 /* AppDelegate.swift */; };
+		CE5DB0E62B696ACD0021D231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB0E52B696ACD0021D231 /* SceneDelegate.swift */; };
+		CE5DB0E82B696ACD0021D231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB0E72B696ACD0021D231 /* ViewController.swift */; };
+		CE5DB0EB2B696ACE0021D231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5DB0E92B696ACD0021D231 /* Main.storyboard */; };
+		CE5DB0ED2B696AD10021D231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5DB0EC2B696AD10021D231 /* Assets.xcassets */; };
+		CE5DB0F02B696AD10021D231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5DB0EE2B696AD10021D231 /* LaunchScreen.storyboard */; };
+		CE5DB0FB2B696AD10021D231 /* HopSkipDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB0FA2B696AD10021D231 /* HopSkipDriveTests.swift */; };
+		CE5DB1052B696AD10021D231 /* HopSkipDriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB1042B696AD10021D231 /* HopSkipDriveUITests.swift */; };
+		CE5DB1072B696AD10021D231 /* HopSkipDriveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB1062B696AD10021D231 /* HopSkipDriveUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE5DB0F72B696AD10021D231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5DB0D82B696ACD0021D231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5DB0DF2B696ACD0021D231;
+			remoteInfo = HopSkipDrive;
+		};
+		CE5DB1012B696AD10021D231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5DB0D82B696ACD0021D231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5DB0DF2B696ACD0021D231;
+			remoteInfo = HopSkipDrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE5DB0E02B696ACD0021D231 /* HopSkipDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopSkipDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5DB0E32B696ACD0021D231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE5DB0E52B696ACD0021D231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE5DB0E72B696ACD0021D231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5DB0EA2B696ACE0021D231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE5DB0EC2B696AD10021D231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE5DB0EF2B696AD10021D231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE5DB0F12B696AD10021D231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5DB0F62B696AD10021D231 /* HopSkipDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopSkipDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5DB0FA2B696AD10021D231 /* HopSkipDriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopSkipDriveTests.swift; sourceTree = "<group>"; };
+		CE5DB1002B696AD10021D231 /* HopSkipDriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopSkipDriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5DB1042B696AD10021D231 /* HopSkipDriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopSkipDriveUITests.swift; sourceTree = "<group>"; };
+		CE5DB1062B696AD10021D231 /* HopSkipDriveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopSkipDriveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE5DB0DD2B696ACD0021D231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5DB0F32B696AD10021D231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5DB0FD2B696AD10021D231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5DB0D72B696ACD0021D231 = {
+			isa = PBXGroup;
+			children = (
+				CE5DB0E22B696ACD0021D231 /* HopSkipDrive */,
+				CE5DB0F92B696AD10021D231 /* HopSkipDriveTests */,
+				CE5DB1032B696AD10021D231 /* HopSkipDriveUITests */,
+				CE5DB0E12B696ACD0021D231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5DB0E12B696ACD0021D231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DB0E02B696ACD0021D231 /* HopSkipDrive.app */,
+				CE5DB0F62B696AD10021D231 /* HopSkipDriveTests.xctest */,
+				CE5DB1002B696AD10021D231 /* HopSkipDriveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5DB0E22B696ACD0021D231 /* HopSkipDrive */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DB0E32B696ACD0021D231 /* AppDelegate.swift */,
+				CE5DB0E52B696ACD0021D231 /* SceneDelegate.swift */,
+				CE5DB0E72B696ACD0021D231 /* ViewController.swift */,
+				CE5DB0E92B696ACD0021D231 /* Main.storyboard */,
+				CE5DB0EC2B696AD10021D231 /* Assets.xcassets */,
+				CE5DB0EE2B696AD10021D231 /* LaunchScreen.storyboard */,
+				CE5DB0F12B696AD10021D231 /* Info.plist */,
+			);
+			path = HopSkipDrive;
+			sourceTree = "<group>";
+		};
+		CE5DB0F92B696AD10021D231 /* HopSkipDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DB0FA2B696AD10021D231 /* HopSkipDriveTests.swift */,
+			);
+			path = HopSkipDriveTests;
+			sourceTree = "<group>";
+		};
+		CE5DB1032B696AD10021D231 /* HopSkipDriveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DB1042B696AD10021D231 /* HopSkipDriveUITests.swift */,
+				CE5DB1062B696AD10021D231 /* HopSkipDriveUITestsLaunchTests.swift */,
+			);
+			path = HopSkipDriveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5DB0DF2B696ACD0021D231 /* HopSkipDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5DB10A2B696AD10021D231 /* Build configuration list for PBXNativeTarget "HopSkipDrive" */;
+			buildPhases = (
+				CE5DB0DC2B696ACD0021D231 /* Sources */,
+				CE5DB0DD2B696ACD0021D231 /* Frameworks */,
+				CE5DB0DE2B696ACD0021D231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HopSkipDrive;
+			productName = HopSkipDrive;
+			productReference = CE5DB0E02B696ACD0021D231 /* HopSkipDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5DB0F52B696AD10021D231 /* HopSkipDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5DB10D2B696AD10021D231 /* Build configuration list for PBXNativeTarget "HopSkipDriveTests" */;
+			buildPhases = (
+				CE5DB0F22B696AD10021D231 /* Sources */,
+				CE5DB0F32B696AD10021D231 /* Frameworks */,
+				CE5DB0F42B696AD10021D231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5DB0F82B696AD10021D231 /* PBXTargetDependency */,
+			);
+			name = HopSkipDriveTests;
+			productName = HopSkipDriveTests;
+			productReference = CE5DB0F62B696AD10021D231 /* HopSkipDriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE5DB0FF2B696AD10021D231 /* HopSkipDriveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5DB1102B696AD10021D231 /* Build configuration list for PBXNativeTarget "HopSkipDriveUITests" */;
+			buildPhases = (
+				CE5DB0FC2B696AD10021D231 /* Sources */,
+				CE5DB0FD2B696AD10021D231 /* Frameworks */,
+				CE5DB0FE2B696AD10021D231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5DB1022B696AD10021D231 /* PBXTargetDependency */,
+			);
+			name = HopSkipDriveUITests;
+			productName = HopSkipDriveUITests;
+			productReference = CE5DB1002B696AD10021D231 /* HopSkipDriveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5DB0D82B696ACD0021D231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE5DB0DF2B696ACD0021D231 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CE5DB0F52B696AD10021D231 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CE5DB0DF2B696ACD0021D231;
+					};
+					CE5DB0FF2B696AD10021D231 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CE5DB0DF2B696ACD0021D231;
+					};
+				};
+			};
+			buildConfigurationList = CE5DB0DB2B696ACD0021D231 /* Build configuration list for PBXProject "HopSkipDrive" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE5DB0D72B696ACD0021D231;
+			productRefGroup = CE5DB0E12B696ACD0021D231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5DB0DF2B696ACD0021D231 /* HopSkipDrive */,
+				CE5DB0F52B696AD10021D231 /* HopSkipDriveTests */,
+				CE5DB0FF2B696AD10021D231 /* HopSkipDriveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE5DB0DE2B696ACD0021D231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DB0F02B696AD10021D231 /* LaunchScreen.storyboard in Resources */,
+				CE5DB0ED2B696AD10021D231 /* Assets.xcassets in Resources */,
+				CE5DB0EB2B696ACE0021D231 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5DB0F42B696AD10021D231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5DB0FE2B696AD10021D231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5DB0DC2B696ACD0021D231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DB0E82B696ACD0021D231 /* ViewController.swift in Sources */,
+				CE5DB0E42B696ACD0021D231 /* AppDelegate.swift in Sources */,
+				CE5DB0E62B696ACD0021D231 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5DB0F22B696AD10021D231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DB0FB2B696AD10021D231 /* HopSkipDriveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5DB0FC2B696AD10021D231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DB1072B696AD10021D231 /* HopSkipDriveUITestsLaunchTests.swift in Sources */,
+				CE5DB1052B696AD10021D231 /* HopSkipDriveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE5DB0F82B696AD10021D231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5DB0DF2B696ACD0021D231 /* HopSkipDrive */;
+			targetProxy = CE5DB0F72B696AD10021D231 /* PBXContainerItemProxy */;
+		};
+		CE5DB1022B696AD10021D231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5DB0DF2B696ACD0021D231 /* HopSkipDrive */;
+			targetProxy = CE5DB1012B696AD10021D231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE5DB0E92B696ACD0021D231 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5DB0EA2B696ACE0021D231 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE5DB0EE2B696AD10021D231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5DB0EF2B696AD10021D231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE5DB1082B696AD10021D231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE5DB1092B696AD10021D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE5DB10B2B696AD10021D231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX452D4486;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HopSkipDrive/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikkitran.HopSkipDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE5DB10C2B696AD10021D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX452D4486;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HopSkipDrive/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikkitran.HopSkipDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE5DB10E2B696AD10021D231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX452D4486;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikkitran.HopSkipDriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopSkipDrive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HopSkipDrive";
+			};
+			name = Debug;
+		};
+		CE5DB10F2B696AD10021D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX452D4486;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikkitran.HopSkipDriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopSkipDrive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HopSkipDrive";
+			};
+			name = Release;
+		};
+		CE5DB1112B696AD10021D231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX452D4486;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikkitran.HopSkipDriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HopSkipDrive;
+			};
+			name = Debug;
+		};
+		CE5DB1122B696AD10021D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX452D4486;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikkitran.HopSkipDriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HopSkipDrive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5DB0DB2B696ACD0021D231 /* Build configuration list for PBXProject "HopSkipDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5DB1082B696AD10021D231 /* Debug */,
+				CE5DB1092B696AD10021D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5DB10A2B696AD10021D231 /* Build configuration list for PBXNativeTarget "HopSkipDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5DB10B2B696AD10021D231 /* Debug */,
+				CE5DB10C2B696AD10021D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5DB10D2B696AD10021D231 /* Build configuration list for PBXNativeTarget "HopSkipDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5DB10E2B696AD10021D231 /* Debug */,
+				CE5DB10F2B696AD10021D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5DB1102B696AD10021D231 /* Build configuration list for PBXNativeTarget "HopSkipDriveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5DB1112B696AD10021D231 /* Debug */,
+				CE5DB1122B696AD10021D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE5DB0D82B696ACD0021D231 /* Project object */;
+}
