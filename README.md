@@ -22,7 +22,7 @@ The following **required** functionality is completed:
 
 - [MapKit](https://developer.apple.com/documentation/mapkit/) - Applie's map framework
 
-- ## Notes/Areas of Improvement
+## Notes/Areas of Improvement
 If given additional time, I would create more reusable components such as UILabels that were often reused through out the app. I'd also utilize lazy vars in the scenario where we have variables that we only compute them when they are needed. I'd also make the models be decodable and convert from json formatting to Apple's camelCase formatting. Lastly, I'd heavily improve the layout of the app by making views be dynamically sized.
 
 ## License
