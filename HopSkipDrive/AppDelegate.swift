@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  HopSkipDrive
-//
-//  Created by Nikki Tran on 1/30/24.
-//
-
 import UIKit
 
 @main

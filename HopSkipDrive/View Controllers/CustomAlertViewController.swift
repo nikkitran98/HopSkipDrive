@@ -5,6 +5,7 @@ private let kCancelButtonHeight: CGFloat = 16.0
 private let kContainerWidth: CGFloat = 300.0
 private let kContainerViewCornerRadius: CGFloat = 20.0
 private let kLargePadding: CGFloat = 20.0
+private let kMinimumContainerViewHeight: CGFloat = 40.0
 private let kSmallPadding: CGFloat = 10.0
 private let kTitleLabelHeight: CGFloat = 20.0
 
@@ -79,9 +80,9 @@ class CustomAlertViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
     
-        let descriptionLabelHeight: CGFloat = heightForView(text: descriptionLabel.text!, font: descriptionLabel.font, width: kContainerWidth-20)
+        let descriptionLabelHeight: CGFloat = heightForView(text: descriptionLabel.text!, font: descriptionLabel.font, width: kContainerWidth-kLargePadding)
         
-        let containerHeight: CGFloat = kCancelButtonHeight + kTitleLabelHeight + descriptionLabelHeight + (kAlertViewButtonHeight * CGFloat(buttons.count)) + 40.0
+        let containerHeight: CGFloat = kCancelButtonHeight + kTitleLabelHeight + descriptionLabelHeight + (kAlertViewButtonHeight * CGFloat(buttons.count)) + kMinimumContainerViewHeight
         
         view.centerXAnchor.constraint(equalTo: view.superview!.centerXAnchor).isActive = true
         view.centerYAnchor.constraint(equalTo: view.superview!.centerYAnchor).isActive = true

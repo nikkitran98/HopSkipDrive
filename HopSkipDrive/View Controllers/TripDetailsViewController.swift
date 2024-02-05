@@ -8,12 +8,14 @@ private let kCancelButtonString = "Cancel this trip"
 private let kEstimatedLabelString = "ESTIMATED"
 private let kIsInSeriesLabelString = "This trip is part of a series."
 private let kMapViewHeight = 210.0
+private let kMediumPadding: CGFloat = 15.0
 private let kNavigationTitleString = "Ride Details"
 private let kPadding: CGFloat = 10.0
 private let kPrimaryButtonString = "Nevermind"
 private let kRoundedViewHeight: CGFloat = 20.0
 private let kRoundedViewWidth: CGFloat = 80.0
 private let kSecondaryButtonString = "Yes"
+private let kSmallPadding: CGFloat = 10.0
 private let kTableViewHeight = 200.0
 private let kTableViewRowHeight = 50.0
 private let kWaypointCellReuseIdentifier = "waypoint-cell"
@@ -139,8 +141,8 @@ class TripDetailsViewController: UIViewController {
         mapView.heightAnchor.constraint(equalToConstant: kMapViewHeight).isActive = true
         mapView.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         
-        inSeriesLabel.topAnchor.constraint(equalTo: mapView.bottomAnchor, constant: 10.0).isActive = true
-        inSeriesLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 10.0).isActive = true
+        inSeriesLabel.topAnchor.constraint(equalTo: mapView.bottomAnchor, constant: kSmallPadding).isActive = true
+        inSeriesLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: kSmallPadding).isActive = true
         inSeriesLabel.heightAnchor.constraint(equalToConstant: kSecondaryLabelFontSize).isActive = true
         
         let previousBottomAnchor = inSeriesLabel.isHidden ? mapView.bottomAnchor : inSeriesLabel.bottomAnchor
@@ -149,11 +151,11 @@ class TripDetailsViewController: UIViewController {
         tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         tableView.heightAnchor.constraint(equalToConstant: tableView.contentSize.height).isActive = true
         
-        tripDetailsLabel.topAnchor.constraint(equalTo: tableView.bottomAnchor, constant: 15.0).isActive = true
-        tripDetailsLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 15.0).isActive = true
+        tripDetailsLabel.topAnchor.constraint(equalTo: tableView.bottomAnchor, constant: kMediumPadding).isActive = true
+        tripDetailsLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: kMediumPadding).isActive = true
         tripDetailsLabel.heightAnchor.constraint(equalToConstant: kSecondaryLabelFontSize).isActive = true
         
-        cancelButton.topAnchor.constraint(equalTo: tripDetailsLabel.bottomAnchor, constant: 15.0).isActive = true
+        cancelButton.topAnchor.constraint(equalTo: tripDetailsLabel.bottomAnchor, constant: kMediumPadding).isActive = true
         cancelButton.heightAnchor.constraint(equalToConstant: kButtonHeight).isActive = true
         cancelButton.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
     }

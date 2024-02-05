@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE155D962B6C81EB00F1C709 /* WaypointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155D952B6C81EA00F1C709 /* WaypointCell.swift */; };
+		CE155D982B6C8E7F00F1C709 /* TripsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155D972B6C8E7F00F1C709 /* TripsDataSource.swift */; };
+		CE155D9A2B6C8EAB00F1C709 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155D992B6C8EAB00F1C709 /* APIService.swift */; };
+		CE155D9C2B6C914B00F1C709 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155D9B2B6C914B00F1C709 /* Constants.swift */; };
+		CE155D9E2B6C940800F1C709 /* TripsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155D9D2B6C940800F1C709 /* TripsResponse.swift */; };
+		CE155DA02B6C942000F1C709 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155D9F2B6C942000F1C709 /* TripModel.swift */; };
+		CE155DA22B6C943400F1C709 /* PassengerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155DA12B6C943400F1C709 /* PassengerModel.swift */; };
+		CE155DA42B6C944200F1C709 /* PlannedRouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155DA32B6C944200F1C709 /* PlannedRouteModel.swift */; };
+		CE155DA62B6C945100F1C709 /* LegModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155DA52B6C945100F1C709 /* LegModel.swift */; };
+		CE155DA82B6C945E00F1C709 /* WaypointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155DA72B6C945E00F1C709 /* WaypointModel.swift */; };
+		CE155DAA2B6C946A00F1C709 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE155DA92B6C946900F1C709 /* LocationModel.swift */; };
+		CE17AB632B6AE3F9009EE16F /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17AB622B6AE3F9009EE16F /* TripDetailsViewController.swift */; };
+		CE17AB652B6AE7E3009EE16F /* TripHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17AB642B6AE7E3009EE16F /* TripHeaderView.swift */; };
+		CE17AB672B6AF441009EE16F /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17AB662B6AF441009EE16F /* TripViewModel.swift */; };
+		CE17AB692B6B1758009EE16F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17AB682B6B1758009EE16F /* Helpers.swift */; };
+		CE17AB712B6B1D91009EE16F /* TripHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17AB702B6B1D91009EE16F /* TripHeaderViewModel.swift */; };
+		CE17AB732B6B1DFF009EE16F /* TripDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17AB722B6B1DFF009EE16F /* TripDetailsViewModel.swift */; };
 		CE5DB0E42B696ACD0021D231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB0E32B696ACD0021D231 /* AppDelegate.swift */; };
 		CE5DB0E62B696ACD0021D231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB0E52B696ACD0021D231 /* SceneDelegate.swift */; };
-		CE5DB0E82B696ACD0021D231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB0E72B696ACD0021D231 /* ViewController.swift */; };
-		CE5DB0EB2B696ACE0021D231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5DB0E92B696ACD0021D231 /* Main.storyboard */; };
+		CE5DB0E82B696ACD0021D231 /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB0E72B696ACD0021D231 /* TripsViewController.swift */; };
 		CE5DB0ED2B696AD10021D231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5DB0EC2B696AD10021D231 /* Assets.xcassets */; };
 		CE5DB0F02B696AD10021D231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5DB0EE2B696AD10021D231 /* LaunchScreen.storyboard */; };
 		CE5DB0FB2B696AD10021D231 /* HopSkipDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB0FA2B696AD10021D231 /* HopSkipDriveTests.swift */; };
 		CE5DB1052B696AD10021D231 /* HopSkipDriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB1042B696AD10021D231 /* HopSkipDriveUITests.swift */; };
 		CE5DB1072B696AD10021D231 /* HopSkipDriveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB1062B696AD10021D231 /* HopSkipDriveUITestsLaunchTests.swift */; };
+		CE5DB1142B6973CA0021D231 /* TripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB1132B6973CA0021D231 /* TripCell.swift */; };
+		CE8369042B703D40006CCAC8 /* CustomPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8369032B703D40006CCAC8 /* CustomPinAnnotation.swift */; };
+		CEC7E5002B7061BC00F4E83C /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7E4FF2B7061BC00F4E83C /* CustomAlertViewController.swift */; };
+		CEC7E5022B708F6D00F4E83C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7E5012B708F6D00F4E83C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +56,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE155D952B6C81EA00F1C709 /* WaypointCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaypointCell.swift; sourceTree = "<group>"; };
+		CE155D972B6C8E7F00F1C709 /* TripsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsDataSource.swift; sourceTree = "<group>"; };
+		CE155D992B6C8EAB00F1C709 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CE155D9B2B6C914B00F1C709 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE155D9D2B6C940800F1C709 /* TripsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsResponse.swift; sourceTree = "<group>"; };
+		CE155D9F2B6C942000F1C709 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		CE155DA12B6C943400F1C709 /* PassengerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerModel.swift; sourceTree = "<group>"; };
+		CE155DA32B6C944200F1C709 /* PlannedRouteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedRouteModel.swift; sourceTree = "<group>"; };
+		CE155DA52B6C945100F1C709 /* LegModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegModel.swift; sourceTree = "<group>"; };
+		CE155DA72B6C945E00F1C709 /* WaypointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaypointModel.swift; sourceTree = "<group>"; };
+		CE155DA92B6C946900F1C709 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		CE17AB622B6AE3F9009EE16F /* TripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
+		CE17AB642B6AE7E3009EE16F /* TripHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeaderView.swift; sourceTree = "<group>"; };
+		CE17AB662B6AF441009EE16F /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
+		CE17AB682B6B1758009EE16F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		CE17AB702B6B1D91009EE16F /* TripHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeaderViewModel.swift; sourceTree = "<group>"; };
+		CE17AB722B6B1DFF009EE16F /* TripDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewModel.swift; sourceTree = "<group>"; };
 		CE5DB0E02B696ACD0021D231 /* HopSkipDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopSkipDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5DB0E32B696ACD0021D231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5DB0E52B696ACD0021D231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE5DB0E72B696ACD0021D231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE5DB0EA2B696ACE0021D231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE5DB0E72B696ACD0021D231 /* TripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewController.swift; sourceTree = "<group>"; };
 		CE5DB0EC2B696AD10021D231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5DB0EF2B696AD10021D231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5DB0F12B696AD10021D231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +85,10 @@
 		CE5DB1002B696AD10021D231 /* HopSkipDriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopSkipDriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5DB1042B696AD10021D231 /* HopSkipDriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopSkipDriveUITests.swift; sourceTree = "<group>"; };
 		CE5DB1062B696AD10021D231 /* HopSkipDriveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopSkipDriveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE5DB1132B6973CA0021D231 /* TripCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCell.swift; sourceTree = "<group>"; };
+		CE8369032B703D40006CCAC8 /* CustomPinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPinAnnotation.swift; sourceTree = "<group>"; };
+		CEC7E4FF2B7061BC00F4E83C /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		CEC7E5012B708F6D00F4E83C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +116,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE17AB6A2B6B1B63009EE16F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE8369032B703D40006CCAC8 /* CustomPinAnnotation.swift */,
+				CE17AB642B6AE7E3009EE16F /* TripHeaderView.swift */,
+				CE5DB1132B6973CA0021D231 /* TripCell.swift */,
+				CE155D952B6C81EA00F1C709 /* WaypointCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE17AB6B2B6B1B75009EE16F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CE155D972B6C8E7F00F1C709 /* TripsDataSource.swift */,
+				CE155D992B6C8EAB00F1C709 /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CE17AB6C2B6B1B7A009EE16F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE155D9B2B6C914B00F1C709 /* Constants.swift */,
+				CEC7E5012B708F6D00F4E83C /* Extensions.swift */,
+				CE17AB682B6B1758009EE16F /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE17AB6D2B6B1B85009EE16F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE155D9D2B6C940800F1C709 /* TripsResponse.swift */,
+				CE155D9F2B6C942000F1C709 /* TripModel.swift */,
+				CE155DA12B6C943400F1C709 /* PassengerModel.swift */,
+				CE155DA32B6C944200F1C709 /* PlannedRouteModel.swift */,
+				CE155DA52B6C945100F1C709 /* LegModel.swift */,
+				CE155DA72B6C945E00F1C709 /* WaypointModel.swift */,
+				CE155DA92B6C946900F1C709 /* LocationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE17AB6E2B6B1B8A009EE16F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7E4FF2B7061BC00F4E83C /* CustomAlertViewController.swift */,
+				CE17AB622B6AE3F9009EE16F /* TripDetailsViewController.swift */,
+				CE5DB0E72B696ACD0021D231 /* TripsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CE17AB6F2B6B1B98009EE16F /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE17AB722B6B1DFF009EE16F /* TripDetailsViewModel.swift */,
+				CE17AB702B6B1D91009EE16F /* TripHeaderViewModel.swift */,
+				CE17AB662B6AF441009EE16F /* TripViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		CE5DB0D72B696ACD0021D231 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +203,17 @@
 		CE5DB0E22B696ACD0021D231 /* HopSkipDrive */ = {
 			isa = PBXGroup;
 			children = (
+				CE17AB6F2B6B1B98009EE16F /* View Models */,
+				CE17AB6E2B6B1B8A009EE16F /* View Controllers */,
+				CE17AB6D2B6B1B85009EE16F /* Models */,
+				CE17AB6C2B6B1B7A009EE16F /* Helpers */,
+				CE17AB6B2B6B1B75009EE16F /* API */,
+				CE17AB6A2B6B1B63009EE16F /* Views */,
+				CE5DB0F12B696AD10021D231 /* Info.plist */,
 				CE5DB0E32B696ACD0021D231 /* AppDelegate.swift */,
 				CE5DB0E52B696ACD0021D231 /* SceneDelegate.swift */,
-				CE5DB0E72B696ACD0021D231 /* ViewController.swift */,
-				CE5DB0E92B696ACD0021D231 /* Main.storyboard */,
 				CE5DB0EC2B696AD10021D231 /* Assets.xcassets */,
 				CE5DB0EE2B696AD10021D231 /* LaunchScreen.storyboard */,
-				CE5DB0F12B696AD10021D231 /* Info.plist */,
 			);
 			path = HopSkipDrive;
 			sourceTree = "<group>";
@@ -233,7 +341,6 @@
 			files = (
 				CE5DB0F02B696AD10021D231 /* LaunchScreen.storyboard in Resources */,
 				CE5DB0ED2B696AD10021D231 /* Assets.xcassets in Resources */,
-				CE5DB0EB2B696ACE0021D231 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +365,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5DB0E82B696ACD0021D231 /* ViewController.swift in Sources */,
+				CE155D962B6C81EB00F1C709 /* WaypointCell.swift in Sources */,
+				CE155D9A2B6C8EAB00F1C709 /* APIService.swift in Sources */,
+				CE155D982B6C8E7F00F1C709 /* TripsDataSource.swift in Sources */,
+				CE155DAA2B6C946A00F1C709 /* LocationModel.swift in Sources */,
+				CE17AB672B6AF441009EE16F /* TripViewModel.swift in Sources */,
+				CE155DA82B6C945E00F1C709 /* WaypointModel.swift in Sources */,
+				CE17AB632B6AE3F9009EE16F /* TripDetailsViewController.swift in Sources */,
+				CE155DA02B6C942000F1C709 /* TripModel.swift in Sources */,
+				CE155D9C2B6C914B00F1C709 /* Constants.swift in Sources */,
+				CEC7E5002B7061BC00F4E83C /* CustomAlertViewController.swift in Sources */,
+				CE155D9E2B6C940800F1C709 /* TripsResponse.swift in Sources */,
+				CE8369042B703D40006CCAC8 /* CustomPinAnnotation.swift in Sources */,
+				CE5DB1142B6973CA0021D231 /* TripCell.swift in Sources */,
+				CE155DA62B6C945100F1C709 /* LegModel.swift in Sources */,
+				CE17AB692B6B1758009EE16F /* Helpers.swift in Sources */,
+				CE17AB732B6B1DFF009EE16F /* TripDetailsViewModel.swift in Sources */,
+				CE5DB0E82B696ACD0021D231 /* TripsViewController.swift in Sources */,
+				CE17AB712B6B1D91009EE16F /* TripHeaderViewModel.swift in Sources */,
+				CE155DA22B6C943400F1C709 /* PassengerModel.swift in Sources */,
+				CEC7E5022B708F6D00F4E83C /* Extensions.swift in Sources */,
+				CE155DA42B6C944200F1C709 /* PlannedRouteModel.swift in Sources */,
 				CE5DB0E42B696ACD0021D231 /* AppDelegate.swift in Sources */,
+				CE17AB652B6AE7E3009EE16F /* TripHeaderView.swift in Sources */,
 				CE5DB0E62B696ACD0021D231 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +425,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE5DB0E92B696ACD0021D231 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE5DB0EA2B696ACE0021D231 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE5DB0EE2B696AD10021D231 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +562,6 @@
 				INFOPLIST_FILE = HopSkipDrive/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +589,6 @@
 				INFOPLIST_FILE = HopSkipDrive/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
